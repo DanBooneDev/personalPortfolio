@@ -1,0 +1,61 @@
+#my-header{
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(236, 249, 255);
+}
+#header-text{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#navBtns-flexBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px;
+  column-gap: 50px;
+}
+#navBtns-right{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  /*background: linear-gradient(to top left,rgb(111,157,232), rgb(68, 116, 193));*/
+}
+#navBtns-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(34, 56, 93);
+  height: 80px;
+}
+#navBtns-left{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#navBtns-flexLeft{
+  margin-left: 20px;
+}
+#home-btn{
+  height: 30px;
+}
+/*#background-container{
+
+}*/
+.nav-btn{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: larger;
+}
+body{
+  background-image: url("/resource/hudsonValley.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

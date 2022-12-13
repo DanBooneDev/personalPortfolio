@@ -1,0 +1,24 @@
+#contact-me-container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#contact-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  border: 1px solid black;
+}
+#contact-inputs{
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border: 1px solid black;
+}
+#contact-message{
+  flex: 3;
+  border: 1px solid black;
+}

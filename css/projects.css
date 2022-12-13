@@ -1,0 +1,8 @@
+#projects-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding: 0;
+  width: 100%;
+}
