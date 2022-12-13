@@ -1,24 +1,51 @@
 #contact-me-container{
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
+  margin-top: 300px;
+  height: auto;
 }
 #contact-flex{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: left;
   flex-wrap: wrap;
-  align-content: center;
-  border: 1px solid black;
+  max-width: 1000px;
+  margin: 0 auto; /*This will actually center it horizontally*/
+  font-size: 18px;
+  padding: 20px;
 }
 #contact-inputs{
   display: flex;
+  text-align: left;
   flex-direction: column;
   flex: 2;
-  border: 1px solid black;
 }
-#contact-message{
+#contact-inputs input{
+  margin-bottom: 30px;
+}
+#contact-message-container{
+  display: flex;
+  flex-direction: column;
   flex: 3;
-  border: 1px solid black;
+  margin-left: 30px;
+}
+#contact-message-container textarea{
+  resize: none;
+  height: auto;
+}
+.submit-button{
+  align-self: flex-end;
+  width: 200px;
+  margin-top: 40px;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background: rgb(34, 56, 93);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit-button:hover{
+  background: rgb(34, 56, 93,0.8);
+  transition: 0.2s;
 }

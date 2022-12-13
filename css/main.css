@@ -11,6 +11,9 @@ main{
   margin: 0;
   padding: 0;
 }
+h1{
+  font-size: 40px;
+}
 #aboutMe-container{
   display: flex;
   align-items: center;
@@ -47,7 +50,7 @@ main{
   min-height: 100vh;
 }
 #second-background{
-  background: linear-gradient(to bottom, rgb(255, 255, 255, 0.2),rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 1));
+  background: linear-gradient(to bottom, rgb(255, 255, 255, 0),rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 1));
   padding-bottom: 60px;
   margin-top: 70px;
 }
