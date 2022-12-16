@@ -1,4 +1,38 @@
 #projects-container{
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+#projects{
+  margin-top: 2rem;
   text-align: center;
+  height: auto;
+}
+#projects-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  column-gap: 3.3rem;
+  row-gap: 4rem;
+}
+.project { 
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  width: 14rem;
+}
+
+@media (min-width: 0rem) and (max-width: 45rem) {
+  #projects-grid{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 45rem) and (max-width: 55rem) {
+  #projects-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 75rem){
+  #projects-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
