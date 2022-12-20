@@ -2,4 +2,5 @@ footer{
   height: 120px;
   background: rgb(34, 56, 93);
   width: 100%;
+  display: flex;
 }
