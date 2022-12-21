@@ -14,13 +14,16 @@ main{
 h1{
   font-size: 40px;
 }
+button{
+  cursor: pointer;
+}
 #aboutMe-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 40px 40px;
+  margin: 5rem 3rem;
   flex-wrap: wrap;
-  column-gap: 20px;
+  column-gap: 2rem;
 }
 #myPhoto-div{
   display: flex;
