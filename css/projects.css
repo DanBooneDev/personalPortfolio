@@ -17,7 +17,7 @@
 .project { 
   background-color: #444;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 1rem;
   width: 14rem;
   display: flex;
   flex-direction: column;

@@ -12,7 +12,7 @@ main{
   padding: 0;
 }
 h1{
-  font-size: 40px;
+  font-size: 2rem;
 }
 button{
   cursor: pointer;
@@ -32,9 +32,9 @@ button{
   justify-content: center;
 }
 #myImage{
-  border: solid 4px white;
-  height: 400px;
-  border-radius: 200px;
+  border: solid .2rem white;
+  height: 24rem;
+  border-radius: 12rem;
 }
 #aboutMe-rightSide{
   display: flex;
@@ -42,18 +42,18 @@ button{
   flex: 1;
   justify-content: center;
   align-content: flex-start;
-  row-gap: 0px;
+  row-gap: 0;
 }
 #aboutMe-rightSide h1, h2{
  text-align: center;
- margin-top: 10px;
- margin-bottom: 10px;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
 }
 #background-container{
   min-height: 100vh;
 }
 #second-background{
   background: linear-gradient(to bottom, rgb(255, 255, 255, 0),rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 1));
-  padding-bottom: 60px;
-  margin-top: 70px;
+  padding-bottom: 2rem;
+  margin-top: 6rem;
 }
