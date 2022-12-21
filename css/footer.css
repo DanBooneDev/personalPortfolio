@@ -4,3 +4,33 @@ footer{
   width: 100%;
   display: flex;
 }
+#basic-info{
+  margin-left: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+#basic-info h4, h3{ 
+  margin: .3em;
+  color: white;
+}
+#footer-middle{
+  flex: 3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#socials{
+  flex: 1;
+  display: flex;
+  column-gap: 1em;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  margin-right: 3em;
+}
+#socials input{
+  height: 2.4em;
+}
